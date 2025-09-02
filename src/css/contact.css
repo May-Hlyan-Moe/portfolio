@@ -1,0 +1,22 @@
+.Contact h1 {
+    margin: 10% 0;
+}
+
+.Contact ul {
+    list-style: none;
+}
+
+.Contact ul li {
+    display: flex;
+    align-items: center;
+}
+
+.Contact ul li i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.Contact ul li a, .Contact ul li span {
+    font-size: 16px;
+    color: #000;
+}

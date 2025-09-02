@@ -1,0 +1,86 @@
+.Projects h1 {
+    margin: 50px 0;
+}
+
+.Projects h1 hr {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+.Projects .container {
+    margin-bottom: 100px;
+}
+
+.Projects .card {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px #cacaca;
+    border-radius: 5px;
+}
+
+.Projects .card:hover {
+    border: 1px solid #959595;
+    scale: 1.03;
+    transition: all .4s ease-in-out;
+}
+
+.Projects .card img {
+    border-bottom: 1px solid #cacaca;
+    border-radius: 5px 5px 0 0 ;
+}
+
+.Projects .project-descriptions {
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Projects .project-descriptions .coming-soon {
+    font-size: 16px;
+    color: #3A98B9;
+}
+
+.Projects .project-descriptions .btn {
+    width: 135px;
+    background-color: #3A98B9 !important;
+    border: 1px solid #3A98B9;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+@media(max-width: 600px) {
+    .Projects h1 {
+        margin: 50px 0;
+    }
+
+    .Projects hr {
+        width: 250px;
+    }
+
+    .Projects .card {
+        width: 300px;
+    }
+
+    .Projects .project-descriptions {
+        font-size: 16px;
+    }
+
+    .Projects .project-descriptions .btn {
+        width: 100px;
+    }
+
+    .Projects .card img {
+        width: 299px;
+    }
+}
+
+@media (max-width: 400px) {
+    .Projects h1 hr {
+        width: 280px;
+    }
+}

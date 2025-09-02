@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "name": "Office",
+        "imgSrc": "https://seeklogo.com/images/M/microsoft-office-logo-8B0EF31E09-seeklogo.com.png"
+    },
+    {
+        "id": 2,
+        "name": "VSCode",
+        "imgSrc": "https://s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/005/original/editor.png?1701382155"
+    },
+    {
+        "id": 3,
+        "name": "Jupyter",
+        "imgSrc": "https://raw.githubusercontent.com/github/explore/a4691f04ff219c1c2aa02fc61fda41aa43f1459a/topics/jupyter-notebook/jupyter-notebook.png"
+    },
+    {
+        "id": 4,
+        "name": "HTML",
+        "imgSrc": "https://s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/010/original/icon-html.png?1711034484"
+    },
+    {
+        "id": 5,
+        "name": "CSS",
+        "imgSrc": "https://s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/004/original/icon-css.png?1711033534"
+    },
+    {
+        "id": 6,
+        "name": "Bootstrap",
+        "imgSrc": "https://s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/003/original/bootstrap.png?1701382150"
+    },
+    {
+        "id": 7,
+        "name": "JavaScript",
+        "imgSrc": "https://s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/011/original/icon-js.png?1711033542"
+    },
+    {
+        "id": 8,
+        "name": "React",
+        "imgSrc": "https://s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/016/original/icon-react.png?1711641851"
+    },
+    {
+        "id": 9,
+        "name": "Python",
+        "imgSrc": "https://s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/018/original/icon-python.png?1712224383"
+    },
+    {
+        "id": 10,
+        "name": "PHP",
+        "imgSrc": "https://images.seeklogo.com/logo-png/10/2/php-logo-png_seeklogo-108600.png"
+    },
+    {
+        "id": 11,
+        "name": "MySql",
+        "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx25AX0zo1Hxz_tPZ2Oi3GpX9-TfcClBSHLg&s"
+    },
+    {
+        "id": 12,
+        "name": "API",
+        "imgSrc": "https://s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/002/original/icon-api.png?1712224402"
+    },
+    {
+        "id": 13,
+        "name": "Github",
+        "imgSrc": "https://s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/017/original/github.png?1701382623"
+    }
+]

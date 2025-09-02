@@ -1,0 +1,38 @@
+.App {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: "Playfair", serif;
+    /* font-family: "DM Serif Text", serif; */
+}
+
+nav {
+    margin: 10px;
+    padding: 12px 0;
+    border-radius: 5px;
+    border: 1px solid #cacaca;
+    box-shadow: 1px 1px 5px #cacaca;
+}
+
+nav div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav div a {
+    text-decoration: none;
+    color: #000;
+    transition: .3s all ease;
+    margin: 0 30px;
+}
+
+nav div a i {
+    font-size: 17px;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    nav div {
+        justify-content: center;
+    }
+}
