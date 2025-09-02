@@ -4,24 +4,25 @@ import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 import { Routes, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
         <nav className='fixed-bottom bg-white'>
             <div>
-                <a href='/' >
+                <Link to='/' >
                     <i className="fa-solid fa-house"></i>
-                </a>
-                <a href='/about' >
+                </Link>
+                <Link to='/about' >
                     <i className='fa-solid fa-user'></i>
-                </a>
-                <a href='/projects' >
+                </Link>
+                <Link to='/projects' >
                     <i className='fa-solid fa-code'></i>
-                </a>
-                <a href='/contact'>
+                </Link>
+                <Link to='/contact'>
                     <i className='fa-solid fa-address-card'></i>
-                </a>
+                </Link>
             </div>
         </nav>
         <Routes>

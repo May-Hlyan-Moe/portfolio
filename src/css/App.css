@@ -19,14 +19,14 @@ nav div {
     justify-content: flex-end;
 }
 
-nav div a {
+nav div {
     text-decoration: none;
     color: #000;
     transition: .3s all ease;
     margin: 0 30px;
 }
 
-nav div a i {
+nav div i {
     font-size: 17px;
     text-align: center;
 }
