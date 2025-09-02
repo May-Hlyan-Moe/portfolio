@@ -8,11 +8,7 @@ import { BrowserRouter  } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-<<<<<<< Updated upstream
-    <BrowserRouter basename="/portfolio">
-=======
     <BrowserRouter basename='portfolio'>
->>>>>>> Stashed changes
       <App />
     </BrowserRouter>
   </React.StrictMode>

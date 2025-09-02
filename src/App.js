@@ -10,20 +10,31 @@ function App() {
   return (
     <div className="App">
         <nav className='fixed-bottom bg-white'>
-            <div>
-                <Link to='/' >
+            <ul>
+                <li>
+                    <Link to='/' >
                     <i className="fa-solid fa-house"></i>
                 </Link>
-                <Link to='/about' >
-                    <i className='fa-solid fa-user'></i>
-                </Link>
-                <Link to='/projects' >
-                    <i className='fa-solid fa-code'></i>
-                </Link>
-                <Link to='/contact'>
-                    <i className='fa-solid fa-address-card'></i>
-                </Link>
-            </div>
+                </li>
+                
+                <li>
+                    <Link to='/about' >
+                        <i className='fa-solid fa-user'></i>
+                    </Link>
+                </li>
+
+                <li>
+                    <Link to='/projects' >
+                        <i className='fa-solid fa-code'></i>
+                    </Link>
+                </li>
+
+                <li>
+                    <Link to='/contact'>
+                        <i className='fa-solid fa-address-card'></i>
+                    </Link>
+                </li>
+            </ul>
         </nav>
         <Routes>
             <Route path='/' element={ <Home /> } />

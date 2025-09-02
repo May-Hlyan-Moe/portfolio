@@ -14,19 +14,21 @@ nav {
     box-shadow: 1px 1px 5px #cacaca;
 }
 
-nav div {
+nav ul {
     display: flex;
     justify-content: flex-end;
+    list-style: none;
+    margin: 0;
 }
 
-nav div {
+nav ul li {
     text-decoration: none;
-    color: #000;
     transition: .3s all ease;
     margin: 0 30px;
 }
 
-nav div i {
+nav li i {
+    color: #000;
     font-size: 17px;
     text-align: center;
 }
