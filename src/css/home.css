@@ -1,5 +1,6 @@
 .Home {
     background-color: #fff;
+    min-height: 1920px;
     height: 100vh;
     display: flex;
     align-items: center;
