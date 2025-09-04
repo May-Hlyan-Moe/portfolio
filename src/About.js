@@ -5,7 +5,7 @@ import aboutInfo from './info/aboutInfo.json';
 function About () {
     return (
         <div className="About container" id="about-div">
-            <div>
+            <div className="container">
                 <div className="d-flex
                                 align-items-center
                                 justify-content-center">
@@ -17,14 +17,16 @@ function About () {
                         {
                             aboutInfo.map(about => 
 
-                                <div className="each-academic-background">
-                                    <h4 className="years">{about.years}</h4>
+                                <div className="each-academic-background mb-5">
+                                    <p className="years">{about.years}</p>
                                     <div className="academic-background-descriptions">
-                                        <img src={about.schoolImg} width={60} alt={about.school}/>
+                                        <div className="school-img-div">
+                                            <img src={about.schoolImg} width={about.imgWidth} alt={about.school}/>
+                                        </div>
                                         <div>
-                                            <h3 className="mb-0">{about.school}</h3>
+                                            <p className="mb-0">{about.school}</p>
                                             <hr className="m-0" />
-                                            <h4 className="mb-0 fw-bold">{about.programName}</h4>
+                                            <p className="mb-0 fw-bold">{about.programName}</p>
                                         </div>  
                                     </div>
                                 </div>

@@ -3,8 +3,9 @@ import './css/home.css';
 function Home () {
     return (
         <div className='Home'>
-            
+            <div>
             <div className='first-div'>
+                <div>
                 <div className='icons container'>
                     <ul>
                         <li>
@@ -28,8 +29,9 @@ function Home () {
                 </div>
 
                 <div className='greeting container'>
-                    <h4>Hello World!</h4>
+                    <h4>HelloWorld!</h4>
                     <hr />
+                </div>
                 </div>
             </div>
 
@@ -64,7 +66,7 @@ function Home () {
                     </div>
                 </div>
             </div>
-
+            </div>
         </div>
     )
 }

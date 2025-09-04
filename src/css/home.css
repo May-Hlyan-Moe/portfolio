@@ -1,13 +1,14 @@
 .Home {
     background-color: #fff;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     .first-div {
-        height: 11vh;
-        max-width: 600px;
-        padding-top: 4%;
-        display: block;
-        margin: 0 auto;
+        max-width: 700px;
+        margin-top: -10%;
+        margin-bottom: 15px;
 
         .icons {
             ul {
@@ -15,7 +16,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: end;
-                margin-right: 30px;
+                margin-bottom: -20px;
 
                 li a {
                     text-decoration: none;
@@ -27,13 +28,15 @@
         }
 
         .greeting {
+            width: 100%;
+            min-width: 340px;
             display: flex;
             align-items: center;
             justify-content: center;
             margin-top: -10px;
 
             hr {
-                width: 60%;
+                width: 100%;
                 margin-left: 10px;
             }
         }
@@ -42,7 +45,6 @@
 
 .Home .main-div-large {
     max-width: 700px;
-    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -64,7 +66,6 @@
     }
 
     .name-div {
-
         display: flex;
         align-items: center;
 
@@ -130,11 +131,8 @@
     }
 
     .Home .main-div-small {
-        height: 80vh;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 }
-
-

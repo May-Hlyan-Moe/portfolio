@@ -1,5 +1,5 @@
 .Contact h1 {
-    margin: 10% 0;
+    margin-top: -10%;
 }
 
 .Contact ul {
@@ -17,6 +17,6 @@
 }
 
 .Contact ul li a, .Contact ul li span {
-    font-size: 16px;
+    font-size: 17px;
     color: #000;
 }
