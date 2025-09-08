@@ -4,7 +4,6 @@ import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 import { Routes, Route, Link } from 'react-router-dom';
-import { Link } from 'react-router-dom';
 
 function App() {
   return (
