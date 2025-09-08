@@ -29,7 +29,7 @@ function Home () {
                 </div>
 
                 <div className='greeting container'>
-                    <h4>HelloWorld!</h4>
+                    <h4>Hello&nbsp;World!</h4>
                     <hr />
                 </div>
                 </div>
@@ -40,7 +40,7 @@ function Home () {
                     <div className='col-6 name-div'>
                         <div>
                             <h1>May Hlyan Moe</h1>
-                            <h4>Junior Web Developer</h4>
+                            <h4>Web Developer</h4>
                             <h4>Computer Science Student</h4>
                             <h4>& I love what I am doing</h4>
                         </div>
