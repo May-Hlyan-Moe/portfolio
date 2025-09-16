@@ -46,21 +46,31 @@
     },
     {
         "id": 10,
+        "name": "Django",
+        "imgSrc": "https://tse4.mm.bing.net/th/id/OIP.4MZ_MyGqJHJsrw5h_deXMQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+        "id": 11,
         "name": "PHP",
         "imgSrc": "https://images.seeklogo.com/logo-png/10/2/php-logo-png_seeklogo-108600.png"
     },
     {
-        "id": 11,
+        "id": 12,
         "name": "MySql",
         "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx25AX0zo1Hxz_tPZ2Oi3GpX9-TfcClBSHLg&s"
     },
     {
-        "id": 12,
+        "id": 13,
         "name": "API",
         "imgSrc": "https://s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/002/original/icon-api.png?1712224402"
     },
     {
-        "id": 13,
+        "id": 14,
+        "name": "Git",
+        "imgSrc": "https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_git-512.png"
+    },
+    {
+        "id": 15,
         "name": "Github",
         "imgSrc": "https://s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/017/original/github.png?1701382623"
     }

@@ -46,11 +46,16 @@
 }
 
 .Projects .project-descriptions .btn {
-    width: 135px;
+    min-width: 100px;
+    max-width: 135px;
     background-color: #3A98B9 !important;
-    border: 1px solid #3A98B9;
+    border: 1px solid #3A98B9 !important;
     font-size: 15px;
     font-weight: 500;
+    max-height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media(max-width: 600px) {

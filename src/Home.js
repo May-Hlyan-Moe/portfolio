@@ -40,6 +40,7 @@ function Home () {
                     <div className='col-6 name-div'>
                         <div>
                             <h1>May Hlyan Moe</h1>
+                            <br />
                             <h4>Web Developer</h4>
                             <h4>Computer Science Student</h4>
                             <h4>& I love what I am doing</h4>
@@ -60,7 +61,8 @@ function Home () {
 
                     <div className='name-div'>
                         <h1>May Hlyan Moe</h1>
-                        <h4>Junior Web Developer</h4>
+                        <br />
+                        <h4>Web Developer</h4>
                         <h4>Computer Science Student</h4>
                         <h4>& I love what I am doing</h4>
                     </div>
