@@ -2,6 +2,18 @@ import './css/projects.css';
 import projectsInfo from './info/projectsInfo.json';
 import achievementsInfo from './info/achievementsInfo.json';
 
+const projectImages = require.context('./images/projects', false, /\.(png|jpe?g|svg)$/);
+const achievementImages = require.context('./images/achievements', false, /\.(png|jpe?g|svg)$/);
+
+const projects = projectsInfo.map(p => ({
+    ...p,
+    projectImg: projectImages(`./${p.projectImg}`)
+}));
+const achievements = achievementsInfo.map(a=> ({
+    ...a,
+    achievementImg: achievementImages(`./${a.achievementImg}`)
+}));
+
 function Projects () {
     return (
         <div className='Projects
@@ -19,7 +31,7 @@ function Projects () {
                 <div className='container'>
                     <div className='row'>
                         {
-                            projectsInfo.map(project => 
+                            projects.map(project => 
                                 <div className='col-lg-6 mb-5'>
                                     <div className='card'>
                                         <img src={project.projectImg} width={399} alt={project.projectName}/>
@@ -49,7 +61,7 @@ function Projects () {
                 <div className='container'>
                     <div className='row'>
                         {
-                            achievementsInfo.map(achievement => 
+                            achievements.map(achievement => 
                                 <div className='col mb-5'>
                                     <div className='card'>
                                         <img src={achievement.achievementImg} width={399} alt={achievement.achievementName}/>
