@@ -1,15 +1,33 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9fbf88ac.css",
-    "main.js": "/portfolio/static/js/main.da728371.js",
+    "main.js": "/portfolio/static/js/main.5c4f71ae.js",
     "static/js/453.ad7768ec.chunk.js": "/portfolio/static/js/453.ad7768ec.chunk.js",
+    "static/media/hotel-booking-php-project.png": "/portfolio/static/media/hotel-booking-php-project.0e3e62cc3a163030532a.png",
+    "static/media/my-achievement-001.png": "/portfolio/static/media/my-achievement-001.7b6a48ecc9e11b0c02df.png",
+    "static/media/paris-project.png": "/portfolio/static/media/paris-project.5a240f1c17ae9009577d.png",
+    "static/media/bagan-bootstrap-project.png": "/portfolio/static/media/bagan-bootstrap-project.891cff652a12299a19ad.png",
+    "static/media/book-a-table-react-project.png": "/portfolio/static/media/book-a-table-react-project.41247c2ae2cbcad4536d.png",
+    "static/media/dictionary-app-javascript-api-project.png": "/portfolio/static/media/dictionary-app-javascript-api-project.da0cdf432ccd05b0956b.png",
+    "static/media/online-shopping-php-project.png": "/portfolio/static/media/online-shopping-php-project.d79794882b010d36916c.png",
+    "static/media/weather-react-app-project.png": "/portfolio/static/media/weather-react-app-project.465dc55cdda986549654.png",
+    "static/media/world-clock-javascript-api-project.png": "/portfolio/static/media/world-clock-javascript-api-project.4fb117baaa1a29f1fafe.png",
+    "static/media/weather-app-javascript-api-project.png": "/portfolio/static/media/weather-app-javascript-api-project.d2ebd5054ac95e71c886.png",
+    "static/media/github-logo.png": "/portfolio/static/media/github-logo.7eea27e972efca6999dd.png",
+    "static/media/bootstrap-logo.png": "/portfolio/static/media/bootstrap-logo.428579c74fd75c1ff366.png",
+    "static/media/pink-portfolio-javascript-json-project.png": "/portfolio/static/media/pink-portfolio-javascript-json-project.0212ce9407cfd3702cdd.png",
+    "static/media/jupyter-notebook-logo.png": "/portfolio/static/media/jupyter-notebook-logo.ea44cc0b55315204540b.png",
+    "static/media/git-logo.png": "/portfolio/static/media/git-logo.0466507c4b9f6644df88.png",
+    "static/media/microsoft-office-logo.png": "/portfolio/static/media/microsoft-office-logo.1d4aa55b51d40f7523bc.png",
+    "static/media/python-logo.png": "/portfolio/static/media/python-logo.3f58efa6f530b680b33e.png",
+    "static/media/django-logo.webp": "/portfolio/static/media/django-logo.1d251683551345a6fb40.webp",
     "index.html": "/portfolio/index.html",
     "main.9fbf88ac.css.map": "/portfolio/static/css/main.9fbf88ac.css.map",
-    "main.da728371.js.map": "/portfolio/static/js/main.da728371.js.map",
+    "main.5c4f71ae.js.map": "/portfolio/static/js/main.5c4f71ae.js.map",
     "453.ad7768ec.chunk.js.map": "/portfolio/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9fbf88ac.css",
-    "static/js/main.da728371.js"
+    "static/js/main.5c4f71ae.js"
   ]
 }
