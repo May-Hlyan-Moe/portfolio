@@ -2,76 +2,76 @@
     {
         "id": 1,
         "name": "Office",
-        "imgSrc": "https://seeklogo.com/images/M/microsoft-office-logo-8B0EF31E09-seeklogo.com.png"
+        "imgSrc": "microsoft-office-logo.png"
     },
     {
         "id": 2,
         "name": "VSCode",
-        "imgSrc": "https://s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/005/original/editor.png?1701382155"
+        "imgSrc": "vscode-logo.png"
     },
     {
         "id": 3,
         "name": "Jupyter",
-        "imgSrc": "https://raw.githubusercontent.com/github/explore/a4691f04ff219c1c2aa02fc61fda41aa43f1459a/topics/jupyter-notebook/jupyter-notebook.png"
+        "imgSrc": "jupyter-notebook-logo.png"
     },
     {
         "id": 4,
         "name": "HTML",
-        "imgSrc": "https://s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/010/original/icon-html.png?1711034484"
+        "imgSrc": "html-logo.png"
     },
     {
         "id": 5,
         "name": "CSS",
-        "imgSrc": "https://s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/004/original/icon-css.png?1711033534"
+        "imgSrc": "css-logo.png"
     },
     {
         "id": 6,
         "name": "Bootstrap",
-        "imgSrc": "https://s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/003/original/bootstrap.png?1701382150"
+        "imgSrc": "bootstrap-logo.png"
     },
     {
         "id": 7,
         "name": "JavaScript",
-        "imgSrc": "https://s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/011/original/icon-js.png?1711033542"
+        "imgSrc": "js-logo.png"
     },
     {
         "id": 8,
         "name": "React",
-        "imgSrc": "https://s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/016/original/icon-react.png?1711641851"
+        "imgSrc": "react-logo.png"
     },
     {
         "id": 9,
         "name": "Python",
-        "imgSrc": "https://s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/018/original/icon-python.png?1712224383"
+        "imgSrc": "python-logo.png"
     },
     {
         "id": 10,
         "name": "Django",
-        "imgSrc": "https://tse4.mm.bing.net/th/id/OIP.4MZ_MyGqJHJsrw5h_deXMQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+        "imgSrc": "django-logo.webp"
     },
     {
         "id": 11,
         "name": "PHP",
-        "imgSrc": "https://images.seeklogo.com/logo-png/10/2/php-logo-png_seeklogo-108600.png"
+        "imgSrc": "php-logo.png"
     },
     {
         "id": 12,
         "name": "MySql",
-        "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx25AX0zo1Hxz_tPZ2Oi3GpX9-TfcClBSHLg&s"
+        "imgSrc": "mysql-logo.png"
     },
     {
         "id": 13,
         "name": "API",
-        "imgSrc": "https://s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/002/original/icon-api.png?1712224402"
+        "imgSrc": "api-logo.png"
     },
     {
         "id": 14,
         "name": "Git",
-        "imgSrc": "https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_git-512.png"
+        "imgSrc": "git-logo.png"
     },
     {
         "id": 15,
         "name": "Github",
-        "imgSrc": "https://s3.amazonaws.com/shecodesio-production/skills/thumbnails/000/000/017/original/github.png?1701382623"
+        "imgSrc": "github-logo.png"
     }
 ]

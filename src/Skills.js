@@ -1,6 +1,17 @@
 import './css/skills.css';
 import skillInfo from './info/skillsInfo.json';
 
+const skillsImages = require.context(
+  './images/skills',
+  false,
+  /\.(png|jpe?g|svg|webp)$/   
+);
+
+const skills = skillInfo.map(skill => ({
+  ...skill,
+  imgSrc: skillsImages(`./${skill.imgSrc}`) 
+}));
+
 function Skills () {
     return (
         <div className="Skills
@@ -18,7 +29,7 @@ function Skills () {
                 <div className='container'>
                     <div className='row'>
                         {
-                            skillInfo.map(skill => 
+                            skills.map(skill => 
                             <div className='col'>
                                 <div className='card'>
                                     <img src={skill.imgSrc} alt={skill.name} />
