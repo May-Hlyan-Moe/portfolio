@@ -42,14 +42,11 @@
 
 .Projects .project-descriptions .coming-soon {
     font-size: 16px;
-    color: #3A98B9;
 }
 
 .Projects .project-descriptions .btn {
     min-width: 100px;
     max-width: 135px;
-    background-color: #3A98B9 !important;
-    border: 1px solid #3A98B9 !important;
     font-size: 15px;
     font-weight: 500;
     max-height: 55px;

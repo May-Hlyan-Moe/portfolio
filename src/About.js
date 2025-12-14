@@ -7,7 +7,7 @@ function About () {
         <div className="About container" id="about-div">
             <div className="container">
                 <div className="about-me mb-5">
-                    <h1 className="text-center fw-bold">
+                    <h1 className="text-center">
                         About Me
                         <hr />
                     </h1>
@@ -15,8 +15,8 @@ function About () {
                     <p className="fw-bold">
                         A Web Developer based in Yangon, Myanmar.
                     </p>
-                    <a className="btn btn-dark fw-bold">
-                        <span className="fs-5 px-2">
+                    <a className="btn btn-dark fw-bold" href="#">
+                        <span className="px-2">
                             Download CV
                         </span>
                         <i className="bi bi-arrow-up-right px-2"></i>

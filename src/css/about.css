@@ -20,6 +20,10 @@
     margin: 0 auto;
 }
 
+.About .about-me a {
+    font-size: 14px;
+}
+
 .About .each-academic-background {
     display: flex;
     justify-content: flex-start;
