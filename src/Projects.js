@@ -39,7 +39,7 @@ function Projects () {
                                             {project.projectName}
                                             <br />
                                             {project.language} 
-                                            <a href={project.projectLink} className='btn btn-dark'>
+                                            <a href={project.projectLink} className='btn btn-outline-dark'>
                                                 {project.buttonText}
                                             </a>
                                         </h5>
@@ -67,7 +67,7 @@ function Projects () {
                                         <img src={achievement.achievementImg} width={399} alt={achievement.achievementName}/>
                                         <h5 className='m-3 project-descriptions'>
                                             {achievement.achievementName} 
-                                            <a href={achievement.achievementLink} className='btn btn-dark'>
+                                            <a href={achievement.achievementLink} className='btn btn-outline-dark'>
                                                 {achievement.buttonText}
                                             </a>
                                         </h5>
