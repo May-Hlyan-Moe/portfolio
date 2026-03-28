@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2a7ef7fd.css",
-    "main.js": "/portfolio/static/js/main.3ce9ce9b.js",
-    "static/js/453.ad7768ec.chunk.js": "/portfolio/static/js/453.ad7768ec.chunk.js",
+    "main.css": "/portfolio/static/css/main.590fd4ca.css",
+    "main.js": "/portfolio/static/js/main.71dc4967.js",
+    "static/js/453.635f5f07.chunk.js": "/portfolio/static/js/453.635f5f07.chunk.js",
     "static/media/hotel-booking-php-project.png": "/portfolio/static/media/hotel-booking-php-project.0e3e62cc3a163030532a.png",
     "static/media/my-achievement-001.png": "/portfolio/static/media/my-achievement-001.7b6a48ecc9e11b0c02df.png",
     "static/media/paris-project.png": "/portfolio/static/media/paris-project.5a240f1c17ae9009577d.png",
@@ -22,12 +22,12 @@
     "static/media/python-logo.png": "/portfolio/static/media/python-logo.3f58efa6f530b680b33e.png",
     "static/media/django-logo.webp": "/portfolio/static/media/django-logo.1d251683551345a6fb40.webp",
     "index.html": "/portfolio/index.html",
-    "main.2a7ef7fd.css.map": "/portfolio/static/css/main.2a7ef7fd.css.map",
-    "main.3ce9ce9b.js.map": "/portfolio/static/js/main.3ce9ce9b.js.map",
-    "453.ad7768ec.chunk.js.map": "/portfolio/static/js/453.ad7768ec.chunk.js.map"
+    "main.590fd4ca.css.map": "/portfolio/static/css/main.590fd4ca.css.map",
+    "main.71dc4967.js.map": "/portfolio/static/js/main.71dc4967.js.map",
+    "453.635f5f07.chunk.js.map": "/portfolio/static/js/453.635f5f07.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a7ef7fd.css",
-    "static/js/main.3ce9ce9b.js"
+    "static/css/main.590fd4ca.css",
+    "static/js/main.71dc4967.js"
   ]
 }
