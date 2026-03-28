@@ -6,6 +6,10 @@
     align-items: center;
     justify-content: center;
 
+    h4 {
+        font-size: 20px;
+    }
+
     .first-div {
         max-width: 700px;
         margin-top: -10%;
