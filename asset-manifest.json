@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.590fd4ca.css",
-    "main.js": "/portfolio/static/js/main.71dc4967.js",
+    "main.css": "/portfolio/static/css/main.d465b134.css",
+    "main.js": "/portfolio/static/js/main.6a5282ac.js",
     "static/js/453.635f5f07.chunk.js": "/portfolio/static/js/453.635f5f07.chunk.js",
     "static/media/hotel-booking-php-project.png": "/portfolio/static/media/hotel-booking-php-project.0e3e62cc3a163030532a.png",
     "static/media/my-achievement-001.png": "/portfolio/static/media/my-achievement-001.7b6a48ecc9e11b0c02df.png",
     "static/media/paris-project.png": "/portfolio/static/media/paris-project.5a240f1c17ae9009577d.png",
     "static/media/bagan-bootstrap-project.png": "/portfolio/static/media/bagan-bootstrap-project.891cff652a12299a19ad.png",
+    "static/media/bagluxe-online-shopping-django.png": "/portfolio/static/media/bagluxe-online-shopping-django.6c60e292ddf5f05dea7b.png",
     "static/media/book-a-table-react-project.png": "/portfolio/static/media/book-a-table-react-project.41247c2ae2cbcad4536d.png",
     "static/media/dictionary-app-javascript-api-project.png": "/portfolio/static/media/dictionary-app-javascript-api-project.da0cdf432ccd05b0956b.png",
     "static/media/online-shopping-php-project.png": "/portfolio/static/media/online-shopping-php-project.d79794882b010d36916c.png",
@@ -22,12 +23,12 @@
     "static/media/python-logo.png": "/portfolio/static/media/python-logo.3f58efa6f530b680b33e.png",
     "static/media/django-logo.webp": "/portfolio/static/media/django-logo.1d251683551345a6fb40.webp",
     "index.html": "/portfolio/index.html",
-    "main.590fd4ca.css.map": "/portfolio/static/css/main.590fd4ca.css.map",
-    "main.71dc4967.js.map": "/portfolio/static/js/main.71dc4967.js.map",
+    "main.d465b134.css.map": "/portfolio/static/css/main.d465b134.css.map",
+    "main.6a5282ac.js.map": "/portfolio/static/js/main.6a5282ac.js.map",
     "453.635f5f07.chunk.js.map": "/portfolio/static/js/453.635f5f07.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.590fd4ca.css",
-    "static/js/main.71dc4967.js"
+    "static/css/main.d465b134.css",
+    "static/js/main.6a5282ac.js"
   ]
 }
