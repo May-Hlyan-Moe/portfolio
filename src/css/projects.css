@@ -29,6 +29,9 @@
 .Projects .card img {
     border-bottom: 1px solid #a1a1a1;
     border-radius: 5px 5px 0 0 ;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
 }
 
 .Projects .project-descriptions {

@@ -1,5 +1,13 @@
 [
     {
+        "id": 11,
+        "projectName": "BagLuxe Online Shopping",
+        "language": "(Django)",
+        "projectImg": "bagluxe-online-shopping-django.png",
+        "projectLink": "https://github.com/May-Hlyan-Moe/bagluxe-online-shopping-django/",
+        "buttonText": "View Source Code"
+    },
+    {
         "id": 10,
         "projectName": "Booking a Table",
         "language": "(React)",
