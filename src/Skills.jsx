@@ -1,15 +1,15 @@
-import './css/skills.css';
+import './css/skills.scss';
 import skillInfo from './info/skillsInfo.json';
 
-const skillsImages = require.context(
-  './images/skills',
-  false,
-  /\.(png|jpe?g|svg|webp)$/   
-);
+const skillsImages = import.meta.glob('./images/skills/*.{png,jpg,jpeg,svg,webp}', {
+    eager: true,
+    query: '?url',
+    import: 'default',
+});
 
 const skills = skillInfo.map(skill => ({
   ...skill,
-  imgSrc: skillsImages(`./${skill.imgSrc}`) 
+    imgSrc: skillsImages[`./images/skills/${skill.imgSrc}`],
 }));
 
 function Skills () {

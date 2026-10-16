@@ -1,0 +1,10 @@
+@use 'sass:math';
+@function fluid-1024($size) {
+    @return math.div($size, 1024px) * 100vw;
+}
+@function fluid-768($size) {
+    @return math.div($size, 768px) * 100vw;
+}
+@function fluid-400($size) {
+    @return math.div($size, 400px) * 100vw;
+}

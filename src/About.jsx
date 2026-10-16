@@ -1,8 +1,30 @@
 import Skills from "./Skills";
-import './css/about.css';
+import './css/about.scss';
 import aboutInfo from './info/aboutInfo.json';
 
 function About () {
+
+    const calculateExperience = () => {
+        const startDate = new Date('2026-03-01');
+        const currentDate = new Date();
+        const totalMonths =
+            (currentDate.getFullYear() - startDate.getFullYear()) * 12 +
+            (currentDate.getMonth() - startDate.getMonth());
+        if (totalMonths <= 0) {
+            return '0 months +';
+        }
+        if (totalMonths < 12) {
+            return `${totalMonths} month${totalMonths === 1 ? '' : 's'} +`;
+        }
+        const years = Math.floor(totalMonths / 12);
+        const months = totalMonths % 12;
+        if (months === 0) {
+            return `${years} year${years === 1 ? '' : 's'} +`;
+        }
+        return `${years} year${years === 1 ? '' : 's'} and ${months} month${months === 1 ? '' : 's'} +`;
+    };
+    const experienceText = calculateExperience();
+
     return (
         <div className="About container" id="about-div">
             <div className="container">
@@ -15,17 +37,11 @@ function About () {
                     <p className="fw-bold">
                         A Web Developer based in Yangon, Myanmar.
                     </p>
-                    <a className="btn btn-dark fw-bold" href="#">
-                        <span className="px-2">
-                            Download CV
-                        </span>
-                        <i className="bi bi-arrow-up-right px-2"></i>
-                    </a>
                     
                     <hr />
 
                     <h2>
-                        3 months +
+                        {experienceText}
                     </h2>
                     <p>
                         professional experience

@@ -1,17 +1,25 @@
-import './css/projects.css';
+import './css/projects.scss';
 import projectsInfo from './info/projectsInfo.json';
 import achievementsInfo from './info/achievementsInfo.json';
 
-const projectImages = require.context('./images/projects', false, /\.(png|jpe?g|svg)$/);
-const achievementImages = require.context('./images/achievements', false, /\.(png|jpe?g|svg)$/);
+const projectImages = import.meta.glob('./images/projects/*.{png,jpg,jpeg,svg}', {
+    eager: true,
+    query: '?url',
+    import: 'default',
+});
+const achievementImages = import.meta.glob('./images/achievements/*.{png,jpg,jpeg,svg}', {
+    eager: true,
+    query: '?url',
+    import: 'default',
+});
 
 const projects = projectsInfo.map(p => ({
     ...p,
-    projectImg: projectImages(`./${p.projectImg}`)
+    projectImg: projectImages[`./images/projects/${p.projectImg}`]
 }));
 const achievements = achievementsInfo.map(a=> ({
     ...a,
-    achievementImg: achievementImages(`./${a.achievementImg}`)
+    achievementImg: achievementImages[`./images/achievements/${a.achievementImg}`]
 }));
 
 function Projects () {
