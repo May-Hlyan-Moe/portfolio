@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Junior Front-End Developer",
+        "imgSrc": "junior-frontend-developer.png"
+    },
+    {
+        "id": 2,
+        "name": "Generative AI Essentials: From Fundamentals to Real-World Applications",
+        "imgSrc": "generative-ai.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Vue.js 3 and Firebase for Beginners",
+        "imgSrc": "vue-beginner.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Meta Front-End Developer Professional Certificate",
+        "imgSrc": "meta-frontend-developer.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Meta Front-End Developer Professional Certificate",
+        "imgSrc": "meta-backend-developer.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Meta Full Stack Developer: Front-End & Back-End from Scratch Specialization",
+        "imgSrc": "meta-fullstack-developer.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Meta React Native Specialization",
+        "imgSrc": "meta-react-native.jpg"
+    }
+]

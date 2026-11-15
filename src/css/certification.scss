@@ -1,0 +1,86 @@
+.Certification h1 {
+    margin: 50px 0;
+}
+
+.Certification h1 hr {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+.Certification .container {
+    margin-bottom: 100px;
+}
+
+.Certification .card {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px #cacaca;
+    border-radius: 5px;
+}
+
+.Certification .card:hover {
+    border: 1px solid #959595;
+    scale: 1.02;
+    transition: all .4s ease-in-out;
+}
+
+.Certification .card img {
+    border-bottom: 1px solid #a1a1a1;
+    border-radius: 5px 5px 0 0 ;
+    width: 100%;
+    object-fit: contain;
+}
+
+.Certification .project-descriptions {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.Certification .project-descriptions .coming-soon {
+    font-size: 16px;
+}
+
+.Certification .project-descriptions .btn {
+    min-width: 100px;
+    max-width: 135px;
+    font-size: 15px;
+    font-weight: 500;
+    max-height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width: 600px) {
+    .Certification h1 {
+        margin: 50px 0;
+    }
+
+    .Certification hr {
+        width: 250px;
+    }
+
+    .Certification .card {
+        width: 300px;
+    }
+
+    .Certification .project-descriptions .btn {
+        width: 100px;
+    }
+
+    .Certification .card img {
+        width: 299px;
+    }
+}
+
+@media (max-width: 400px) {
+    .Certification h1 hr {
+        width: 280px;
+    }
+}
